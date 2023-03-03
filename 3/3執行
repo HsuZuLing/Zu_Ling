@@ -1,0 +1,57 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HsuZuLing/Zu_Ling/blob/main/3/3%E5%9F%B7%E8%A1%8C\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rooms = {'1': 'Foyer', '2': 'Conference Room'}\n",
+        "room = input('Enter the room number: ')\n",
+        "if not room in rooms:\n",
+        "\tprint('Room does not exist.')\n",
+        "else:\n",
+        "\tprint(\"The room name is \" + rooms[room])\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "iAOHHbkLbZZS",
+        "outputId": "8f1449ea-d665-4068-a516-5e615e4b0ab0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the room number: 1\n",
+            "The room name is Foyer\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "歡迎使用 Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
